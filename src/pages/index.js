@@ -1,12 +1,20 @@
 import React from "react"
 import { Link } from "gatsby"
+import styled from "styled-components"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
+const Test = styled.div`
+  width: 96px;
+  height: 96px;
+  background: #000000;
+`;
+
 const IndexPage = () => (
   <Layout>
+    <Test/>
     <SEO title="Home" />
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
