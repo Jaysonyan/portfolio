@@ -5,6 +5,11 @@ import styled from 'styled-components'
 
 const RoundedImage = styled(Img)`
   border-radius: 50%;
+  animation: fadein 2s;
+  @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
 `
 
 const ProfilePic = () => {
