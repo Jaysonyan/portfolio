@@ -14,11 +14,19 @@ const ProfileWrapper = styled.div`
   padding: 20%;
 `
 
+const TextWrapper = styled.div`
+  @media(max-width: 768px) {
+    grid-row: 2/2;
+  }
+`
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <ProfileWrapper>
-      <ProfileText/>
+      <TextWrapper>
+        <ProfileText/>
+      </TextWrapper>      
       <ProfilePic/>
     </ProfileWrapper>
   </Layout>
