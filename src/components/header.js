@@ -9,7 +9,6 @@ const NavigationWrapper = styled.div`
   align-items: center;
   position: fixed;
   height: 64px;
-  background-color: white;
   width: 100%;
 `;
 

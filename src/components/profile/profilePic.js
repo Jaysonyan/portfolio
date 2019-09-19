@@ -4,6 +4,7 @@ import Img from "gatsby-image"
 import styled from 'styled-components'
 
 const RoundedImage = styled(Img)`
+  margin: 50px;
   border-radius: 50%;
   animation: fadein 2s;
   @keyframes fadein {
