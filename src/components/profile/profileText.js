@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { IoLogoLinkedin, IoMdMail, IoIosDocument, IoLogoGithub } from 'react-icons/io'
 
 const TextWrapper = styled.div`
     padding-right: 50px;
@@ -32,10 +33,27 @@ const Subtitle = styled.h2`
     }
 `
 
+const IconWrapper = styled.div`
+    width: 400px;
+    display: grid;
+    float: right;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: right;
+    @media (max-width: 768px) {
+        justify-items: center;
+    }
+`
+
 const ProfileText = () => (
     <TextWrapper>
         <Name>jayson yan</Name>
         <Subtitle>Software Developer</Subtitle>
+        <IconWrapper>
+            <IoLogoLinkedin size={32}/>
+            <IoMdMail size={32}/>
+            <IoIosDocument size={32}/>
+            <IoLogoGithub size={32}/>
+        </IconWrapper>
     </TextWrapper>
 )
 

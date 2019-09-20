@@ -25,7 +25,7 @@ const Header = ({ siteTitle }) => (
   <NavigationWrapper>
     <NavigationLink to="/"> {siteTitle} </NavigationLink>
     <NavigationLink to="/404"> about me </NavigationLink>
-    <NavigationLink to="/"> projects </NavigationLink>
+    <NavigationLink to="/projects"> projects </NavigationLink>
     <NavigationLink to="/"> resume </NavigationLink>
   </NavigationWrapper>
 )

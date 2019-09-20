@@ -20,9 +20,9 @@ const RoundedImage = styled(Img)`
 const ProfilePic = () => {
   const data = useStaticQuery(graphql`
     query {
-      profilePic: file(relativePath: { eq: "portrait.jpg" }) {
+      profilePic: file(relativePath: { eq: "headshot.jpg" }) {
         childImageSharp {
-          fixed(width: 300, height: 300) {
+          fixed(width: 300, height: 300, quality: 100) {
             ...GatsbyImageSharpFixed
           }
         }
