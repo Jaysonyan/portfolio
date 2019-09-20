@@ -14,7 +14,8 @@ const NavigationWrapper = styled.div`
 
 const NavigationLink = styled(Link)`
   text-align: center;
-  font-family: "Work Sans", monospace;
+  font-family: "montserrat", sans-serif;
+  font-weight: 600;
   text-decoration: none;
   outline: none;
   color: black;

@@ -7,6 +7,10 @@ const RoundedImage = styled(Img)`
   margin: 50px;
   border-radius: 50%;
   animation: fadein 2s;
+  @media (max-width: 768px ) {
+    top: 80px;
+    margin: auto;
+  }
   @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }

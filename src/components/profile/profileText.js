@@ -7,6 +7,11 @@ const TextWrapper = styled.div`
         grid-row: 2/2;
         padding-right: 0px;
     }
+    animation: fadein 2s;
+    @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
 `
 
 const Name = styled.h1`

@@ -13,16 +13,18 @@ const ProfileWrapper = styled.div`
   align-items: center;
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
-    grid-template-rows: 2fr 3fr;
+    grid-template-rows: 3fr 2fr;
     justify-items: center;
   }
 `
 const drawLine = keyframes`
     0% {
       height: 0px;
+      opacity: 0.2;
     }
     100% {
       height: 400px;
+      opacity: 1.0;
     }
 `
 
