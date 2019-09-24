@@ -7,9 +7,11 @@ const NavigationWrapper = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
-  position: fixed;
+  position: sticky;
   height: 64px;
   width: 100%;
+  top: 0px;
+  background-color: #F5F5F5;
 `;
 
 const NavigationLink = styled(Link)`

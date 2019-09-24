@@ -5,7 +5,6 @@ import ProjectStack from './projectstack'
 const CardWrapper = styled.div`
     background-color: yellow;
     width: 400px;
-    height: 800px;
     padding: 8px;
 `
 const CardImage = styled.img`

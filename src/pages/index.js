@@ -8,8 +8,8 @@ import ProfileText from "../components/profile/profiletext"
 
 const ProfileWrapper = styled.div`
   display: grid;
-  grid-template-columns: 1fr 5px 1fr;
-  height: 100vh;
+  grid-template-columns: 6fr 5px 5fr;
+  height: calc(100vh - 64px);
   align-items: center;
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
