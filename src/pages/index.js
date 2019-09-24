@@ -3,8 +3,8 @@ import styled, { keyframes } from 'styled-components'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import ProfilePic from "../components/profile/profilePic"
-import ProfileText from "../components/profile/profileText"
+import ProfilePic from "../components/profile/profilepic"
+import ProfileText from "../components/profile/profiletext"
 
 const ProfileWrapper = styled.div`
   display: grid;
