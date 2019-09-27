@@ -7,6 +7,7 @@ import ProjectGrid from '../components/projects/projectgrid';
 const ProjectWrapper = styled.div`
     width: 85%;
     padding-top: 64px;
+    padding-bottom: 64px;
 `
 
 const ProjectTitle = styled.h1`
@@ -18,7 +19,7 @@ const ProjectsPage = () => (
     <Layout>
         <ProjectWrapper>
             <ProjectTitle>Projects</ProjectTitle>
-            <ProjectGrid projects={[1, 2, 3, 4]}/>
+            <ProjectGrid/>
         </ProjectWrapper>
     </Layout>
 )

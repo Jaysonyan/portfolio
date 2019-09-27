@@ -2,6 +2,16 @@ const Projects = [
     {
         title: "Readefine",
         description: "Readefine is a smart glove built to read out word that you point to. It's built with a Raspberry Pi and powered by Google Cloud Platform's OCR ",
+        techStack: [
+            {
+                name: "Python",
+                icon: "FaPython"
+            },
+            {
+                name: "Raspberry Pi",
+                icon: "FaRaspberryPi"
+            }
+        ],
         links: [
             {
                 name: "Github",
@@ -16,6 +26,20 @@ const Projects = [
     {
         title: "Show Tracker",
         description: "Show Tracker is a Chrome Extension which enables users to track shows they are currently watching. This project was built due to a personal problem of mine which was that I could never remember where I left off on shows, show I built this tool to help me out.",
+        techStack: [
+            {
+                name: "HTML",
+                icon: "IoLogoHtml5"
+            },
+            {
+                name: "CSS",
+                icon: "IoLogoCss3"
+            },
+            {
+                name: "Javascript",
+                icon: "IoLogoJavascript"
+            }
+        ],
         links: [
             {
                 name: "Github",
@@ -30,6 +54,20 @@ const Projects = [
     {
         title: "Colour Me Calm",
         description: "Colour Me Creative is a web game that allows users to upload images which get converted into paint-by-number grids for them to colour in.",
+        techStack: [
+            {
+                name: "Node.js",
+                icon: "IoLogoNodejs"
+            },
+            {
+                name: "HTML",
+                icon: "IoLogoHtml5"
+            },
+            {
+                name: "CSS",
+                icon: "IoLogoCss3"
+            }
+        ],
         links: [
             {
                 name: "Github",
@@ -50,6 +88,16 @@ const Projects = [
     {
         title: "Reading Cyborg",
         description: "Reading Cyborg is an Alexa skill that reads the user short stories on request. The alexa skill was written with Node.js and stories were scraped with using Python and Beautiful Soup",
+        techStack: [
+            {
+                name: "Node.js",
+                icon: "IoLogoNodejs"
+            },
+            {
+                name: "Python",
+                icon: "DiPython"
+            }
+        ],
         links: [
             {
                 name: "Github",

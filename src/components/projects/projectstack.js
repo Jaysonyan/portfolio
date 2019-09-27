@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import * as MaterialDesign from 'react-icons/md';
+import TechIcon from './techicon'
 
 const StackWrapper = styled.div`
     display: grid;
@@ -9,8 +9,8 @@ const StackWrapper = styled.div`
 
 const ProjectStack = (props) => (
     <StackWrapper>
-        {props.icons.map((value) => (
-            React.createElement(MaterialDesign[value])
+        {props.techStack.map((tech) => (
+            <TechIcon type={tech.icon.substring(0, 2)} icon={tech.icon} title={tech.name} />
         ))}
     </StackWrapper>
 )
