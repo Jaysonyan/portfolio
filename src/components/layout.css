@@ -623,3 +623,9 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+.__react_component_tooltip {
+  font-family: "montserrat", sans-serif;
+  border-radius: 10px;
+  padding: 5px 8px !important;
+}
