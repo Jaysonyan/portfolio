@@ -22,11 +22,11 @@ const TechIcon = (props) => {
     }
 
     return (
-        <IconWrapper data-tip={props.title} data-delay-show='500'>
+        <IconWrapper data-tip={props.title} data-for={props.id} data-delay-show='300'>
             <IconContext.Provider value={{ size: '1.2em'}}>
                 {getIcon(props.type, props.icon)}
             </IconContext.Provider>
-            <ReactToolTip place="top" type="dark" effect="solid"/>
+            <ReactToolTip id={props.id} effect="solid"/>
         </IconWrapper>
     )
 }

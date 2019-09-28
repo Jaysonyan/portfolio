@@ -44,15 +44,32 @@ const IconWrapper = styled.div`
     }
 `
 
+const Icon = styled.a`
+    color: black;
+    opacity: 0.8;
+    transition: 0.3s;
+    :hover {
+        opacity: 1;
+    }
+`
+
 const ProfileText = () => (
     <TextWrapper>
         <Name>jayson yan</Name>
         <Subtitle>Software Developer</Subtitle>
         <IconWrapper>
-            <IoLogoLinkedin size={32}/>
-            <IoMdMail size={32}/>
-            <IoIosDocument size={32}/>
-            <IoLogoGithub size={32}/>
+            <Icon href="https://www.linkedin.com/in/jayson-yan">
+                <IoLogoLinkedin size={32}/>
+            </Icon>
+            <Icon href="https://www.github.com/Jaysonyan">
+                <IoLogoGithub size={32}/>
+            </Icon>
+            <Icon href="mailto:jaysonjyan@gmail.com">
+                <IoMdMail size={32}/>
+            </Icon>
+            <Icon href="">
+                <IoIosDocument size={32}/>
+            </Icon>
         </IconWrapper>
     </TextWrapper>
 )

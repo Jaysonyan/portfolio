@@ -9,8 +9,8 @@ const StackWrapper = styled.div`
 
 const ProjectStack = (props) => (
     <StackWrapper>
-        {props.techStack.map((tech) => (
-            <TechIcon type={tech.icon.substring(0, 2)} icon={tech.icon} title={tech.name} />
+        {props.techStack.map((tech, index) => (
+            <TechIcon type={tech.icon.substring(0, 2)} icon={tech.icon} title={tech.name} id={props.index+"-"+index} />
         ))}
     </StackWrapper>
 )

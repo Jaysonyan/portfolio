@@ -30,7 +30,7 @@ const ProjectCard = (props) => (
         <CardImage src={props.img}/>
         <ProjectTitle>{props.project.title}</ProjectTitle>
         <ProjectBody>
-            { props.project.techStack ? <ProjectStack techStack={props.project.techStack}/> : null }
+            { props.project.techStack ? <ProjectStack techStack={props.project.techStack} index={props.index}/> : null }
             <ProjectDescription>{props.project.description}</ProjectDescription>
         </ProjectBody>
    </CardWrapper>
