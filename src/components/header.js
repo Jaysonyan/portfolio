@@ -23,12 +23,21 @@ const NavigationLink = styled(Link)`
   color: black;
 `
 
+const ExternalNavLink = styled.a`
+  text-align: center;
+  font-family: "montserrat", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  outline: none;
+  color: black;
+`
+
 const Header = ({ siteTitle }) => (
   <NavigationWrapper>
     <NavigationLink to="/"> {siteTitle} </NavigationLink>
     <NavigationLink to="/404"> about me </NavigationLink>
     <NavigationLink to="/projects"> projects </NavigationLink>
-    <NavigationLink to="/"> resume </NavigationLink>
+    <ExternalNavLink href="Resume.pdf"> resume </ExternalNavLink>
   </NavigationWrapper>
 )
 

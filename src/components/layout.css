@@ -626,6 +626,7 @@ pre tt:after {
 
 .__react_component_tooltip {
   font-family: "montserrat", sans-serif;
+  font-weight: 1000;
   border-radius: 10px;
   padding: 5px 8px !important;
 }

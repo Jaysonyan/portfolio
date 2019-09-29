@@ -67,7 +67,7 @@ const ProfileText = () => (
             <Icon href="mailto:jaysonjyan@gmail.com">
                 <IoMdMail size={32}/>
             </Icon>
-            <Icon href="">
+            <Icon href="Resume.pdf">
                 <IoIosDocument size={32}/>
             </Icon>
         </IconWrapper>
