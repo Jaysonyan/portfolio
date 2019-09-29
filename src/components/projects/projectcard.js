@@ -1,8 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
 import ProjectStack from './projectstack'
+import ProjectButtons from './projectbuttons'
 
 const CardWrapper = styled.div`
+    display: flex;
+    flex-flow: column;
     background-color: white;
     width: 400px;
     padding: 24px;
@@ -33,6 +36,7 @@ const ProjectCard = (props) => (
             { props.project.techStack ? <ProjectStack techStack={props.project.techStack} index={props.index}/> : null }
             <ProjectDescription>{props.project.description}</ProjectDescription>
         </ProjectBody>
+        <ProjectButtons links={props.project.links}/>
    </CardWrapper>
 )
 
