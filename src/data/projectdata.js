@@ -1,7 +1,11 @@
 const Projects = [
     {
         title: "Readefine",
-        description: "Readefine is a smart glove built to read out word that you point to. It's built with a Raspberry Pi and powered by Google Cloud Platform's OCR ",
+        description: "A smart glove that is able to read out any text that you point to using OCR. The project was aimed to make written media more accessible for the visually impaired.",
+        images: [
+            "readefined1.png",
+            "readefined2.png"
+        ],
         techStack: [
             {
                 name: "Python",
@@ -25,8 +29,16 @@ const Projects = [
     },
     {
         title: "Show Tracker",
-        description: "Show Tracker is a Chrome Extension which enables users to track shows they are currently watching. This project was built due to a personal problem of mine which was that I could never remember where I left off on shows, show I built this tool to help me out.",
+        description: "A Chrome Extension that allows you to keep track of all the shows you're currently binging.",
+        images: [
+            "showTracker1.png",
+            "showTracker2.png"
+        ],
         techStack: [
+            {
+                name: "Javascript",
+                icon: "IoLogoJavascript"
+            },
             {
                 name: "HTML",
                 icon: "IoLogoHtml5"
@@ -34,10 +46,6 @@ const Projects = [
             {
                 name: "CSS",
                 icon: "IoLogoCss3"
-            },
-            {
-                name: "Javascript",
-                icon: "IoLogoJavascript"
             }
         ],
         links: [
@@ -53,7 +61,12 @@ const Projects = [
     },
     {
         title: "Colour Me Calm",
-        description: "Colour Me Creative is a web game that allows users to upload images which get converted into paint-by-number grids for them to colour in.",
+        description: "A web app where you can upload images and the app will convert them into a paint-by-numbers canvas for you to colour in.",
+        images: [
+            "colourCalm1.png",
+            "colourCalm2.png",
+            "colourCalm3.png"
+        ],
         techStack: [
             {
                 name: "Node.js",
@@ -76,18 +89,11 @@ const Projects = [
         ]
     },
     {
-        title: "Arduino Car",
-        description: "This project was built for my SE101 final project. It is a toy car built with an arduino and ultrasonic sensor to drive around and find the object in closest proximity and drive towards it.",
-        links: [
-            {
-                name: "Github",
-                link: "https://github.com/Jaysonyan/Arduino-Car",
-            }
-        ]
-    },
-    {
         title: "Reading Cyborg",
-        description: "Reading Cyborg is an Alexa skill that reads the user short stories on request. The alexa skill was written with Node.js and stories were scraped with using Python and Beautiful Soup",
+        description: "An Alexa skill that reads you short stories on request. The skill was built with Node.js and stories were gathered with a webscrapper written in Python.",
+        images: [
+            "readingCyborg1.jpg"
+        ],
         techStack: [
             {
                 name: "Node.js",
@@ -95,7 +101,19 @@ const Projects = [
             },
             {
                 name: "Python",
-                icon: "DiPython"
+                icon: "FaPython"
+            },
+            {
+                name: "AWS S3",
+                icon: "FaAws"
+            },
+            {
+                name: "HTML",
+                icon: "IoLogoHtml5"
+            },
+            {
+                name: "CSS",
+                icon: "IoLogoCss3"
             }
         ],
         links: [
@@ -106,13 +124,19 @@ const Projects = [
         ]
     },
     {
-        title: "Tetris",
-        description: "This game was my submission for my final project in grade 11 compuer science course. It was a one of my first experiences working on a larger scale project.",
-        links: [
+        title: "Quadris",
+        description: "A tetris clone built with C++ for my CS247 final project. Project adheres to many design principles such as subject-observer, factory, and RAII. \nUnfortunately due to school policies I am unable to publish the source code 😞",
+        images: [
+            "tetris1.png"
+        ],
+        techStack: [
             {
-                name: "Github",
-                link: "https://github.com/Jaysonyan/Turing-Tetris",
+                name: "C++",
+                icon: "cplusplus"
             }
+
+        ],
+        links: [
         ]
     }
 ]

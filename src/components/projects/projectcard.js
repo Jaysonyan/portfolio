@@ -8,14 +8,16 @@ const CardWrapper = styled.div`
     flex-flow: column;
     background-color: white;
     width: 400px;
-    padding: 24px;
+    padding: 20px;
     box-shadow: 0 0 7px grey;
 `
 const CardImage = styled.img`
+    height: 230px;
+    object-fit: cover;
 `
 const ProjectBody = styled.div`
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
 `
 
 const ProjectTitle = styled.h1`
@@ -26,11 +28,12 @@ const ProjectTitle = styled.h1`
 
 const ProjectDescription = styled.p`
     font-family: "montserrat", sans-serif;
+    white-space: pre-line;
 `
 
 const ProjectCard = (props) => (
     <CardWrapper>
-        <CardImage src={props.img}/>
+        <CardImage src={props.project.images[0]}/>
         <ProjectTitle>{props.project.title}</ProjectTitle>
         <ProjectBody>
             { props.project.techStack ? <ProjectStack techStack={props.project.techStack} index={props.index}/> : null }

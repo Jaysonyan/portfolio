@@ -20,9 +20,14 @@ const Button = styled.a`
     text-align: center;
     text-decoration: none;
     color: black;
-    border: 1px solid gray;
+    border: 1px solid black;
     font-family: "montserrat", sans-serif;
     font-weight: 800;
+    transition: 0.3s;
+    opacity: 0.5;
+    :hover {
+        opacity: 1;
+    }
 `
 
 const ProjectButtons = (props) => (

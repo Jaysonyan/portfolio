@@ -13,6 +13,7 @@ const ProjectWrapper = styled.div`
 const ProjectTitle = styled.h1`
     font-family: "montserrat", sans-serif;
     font-size: 64px;
+    padding-bottom: 32px;
 `
 
 const ProjectsPage = () => (
