@@ -1,4 +1,5 @@
 import React from 'react'
+import { withPrefix } from 'gatsby'
 import styled from 'styled-components'
 import ProjectStack from './projectstack'
 import ProjectButtons from './projectbuttons'
@@ -33,7 +34,7 @@ const ProjectDescription = styled.p`
 
 const ProjectCard = (props) => (
     <CardWrapper>
-        <CardImage src={props.project.images[0]}/>
+        <CardImage src={withPrefix(props.project.images[0])}/>
         <ProjectTitle>{props.project.title}</ProjectTitle>
         <ProjectBody>
             { props.project.techStack ? <ProjectStack techStack={props.project.techStack} index={props.index}/> : null }

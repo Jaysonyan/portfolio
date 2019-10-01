@@ -3,8 +3,8 @@ const Projects = [
         title: "Readefine",
         description: "A smart glove that is able to read out any text that you point to using OCR. The project was aimed to make written media more accessible for the visually impaired.",
         images: [
-            "readefined1.png",
-            "readefined2.png"
+            "projects/readefined1.png",
+            "projects/readefined2.png"
         ],
         techStack: [
             {
@@ -31,8 +31,8 @@ const Projects = [
         title: "Show Tracker",
         description: "A Chrome Extension that allows you to keep track of all the shows you're currently binging.",
         images: [
-            "showTracker1.png",
-            "showTracker2.png"
+            "projects/showTracker1.png",
+            "projects/showTracker2.png"
         ],
         techStack: [
             {
@@ -63,9 +63,9 @@ const Projects = [
         title: "Colour Me Calm",
         description: "A web app where you can upload images and the app will convert them into a paint-by-numbers canvas for you to colour in.",
         images: [
-            "colourCalm1.png",
-            "colourCalm2.png",
-            "colourCalm3.png"
+            "projects/colourCalm1.png",
+            "projects/colourCalm2.png",
+            "projects/colourCalm3.png"
         ],
         techStack: [
             {
@@ -92,7 +92,7 @@ const Projects = [
         title: "Reading Cyborg",
         description: "An Alexa skill that reads you short stories on request. The skill was built with Node.js and stories were gathered with a webscrapper written in Python.",
         images: [
-            "readingCyborg1.jpg"
+            "projects/readingCyborg1.jpg"
         ],
         techStack: [
             {
@@ -127,7 +127,7 @@ const Projects = [
         title: "Quadris",
         description: "A tetris clone built with C++ for my CS247 final project. Project adheres to many design principles such as subject-observer, factory, and RAII. \nUnfortunately due to school policies I am unable to publish the source code 😞",
         images: [
-            "tetris1.png"
+            "projects/tetris1.png"
         ],
         techStack: [
             {

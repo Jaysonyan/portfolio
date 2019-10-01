@@ -35,9 +35,9 @@ const ExternalNavLink = styled.a`
 const Header = ({ siteTitle }) => (
   <NavigationWrapper>
     <NavigationLink to="/"> {siteTitle} </NavigationLink>
-    <NavigationLink to="/404"> about me </NavigationLink>
+    <NavigationLink to="/aboutme"> about me </NavigationLink>
     <NavigationLink to="/projects"> projects </NavigationLink>
-    <ExternalNavLink href="Resume.pdf"> resume </ExternalNavLink>
+    <ExternalNavLink href="/Resume.pdf"> resume </ExternalNavLink>
   </NavigationWrapper>
 )
 
