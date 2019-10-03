@@ -34,7 +34,7 @@ const ExternalNavLink = styled.a`
 
 const Header = () => (
   <NavigationWrapper>
-    <NavigationLink to="/"> jayson yan </NavigationLink>
+    <NavigationLink to="/"> jayson </NavigationLink>
     <NavigationLink to="/aboutme"> about me </NavigationLink>
     <NavigationLink to="/projects"> projects </NavigationLink>
     <ExternalNavLink href="/Resume.pdf"> resume </ExternalNavLink>

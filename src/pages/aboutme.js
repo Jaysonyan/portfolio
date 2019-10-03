@@ -21,6 +21,7 @@ const AboutMeBody = styled.p`
     font-weight: 600;
     white-space: pre-line;
     align-self: center;
+    line-height: 1.1em;
 `
 
 const AboutMeContent = styled.div`

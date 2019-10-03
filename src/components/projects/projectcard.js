@@ -8,9 +8,13 @@ const CardWrapper = styled.div`
     display: flex;
     flex-flow: column;
     background-color: white;
-    width: 400px;
+    max-width: 420px;
+    min-width: 320px;
     padding: 20px;
     box-shadow: 0 0 7px grey;
+    @media (max-width: 768px) {
+        width: 320px;
+    }
 `
 const CardImage = styled.img`
     height: 230px;

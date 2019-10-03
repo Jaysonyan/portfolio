@@ -41,6 +41,7 @@ const IconWrapper = styled.div`
     justify-items: right;
     @media (max-width: 768px) {
         justify-items: center;
+        width: 350px;
     }
 `
 

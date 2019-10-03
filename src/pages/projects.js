@@ -6,14 +6,20 @@ import ProjectGrid from '../components/projects/projectgrid';
 
 const ProjectWrapper = styled.div`
     width: 85%;
-    padding-top: 64px;
-    padding-bottom: 64px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    @media(max-width: 768px) {
+        width: 100%;
+    }
 `
 
 const ProjectTitle = styled.h1`
     font-family: "montserrat", sans-serif;
     font-size: 64px;
     padding-bottom: 32px;
+    @media(max-width: 768px) {
+        padding-left: 16px;
+    }
 `
 
 const ProjectsPage = () => (

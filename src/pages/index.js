@@ -23,7 +23,7 @@ const drawLine = keyframes`
     }
     100% {
       height: 400px;
-      opacity: 1.0;
+      opacity: 0.8;
     }
 `
 
