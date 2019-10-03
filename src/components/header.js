@@ -12,6 +12,7 @@ const NavigationWrapper = styled.div`
   width: 100%;
   top: 0px;
   background-color: #F5F5F5;
+  z-index: 1;
 `;
 
 const NavigationLink = styled(Link)`
@@ -32,21 +33,13 @@ const ExternalNavLink = styled.a`
   color: black;
 `
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <NavigationWrapper>
-    <NavigationLink to="/"> {siteTitle} </NavigationLink>
+    <NavigationLink to="/"> jayson yan </NavigationLink>
     <NavigationLink to="/aboutme"> about me </NavigationLink>
     <NavigationLink to="/projects"> projects </NavigationLink>
     <ExternalNavLink href="/Resume.pdf"> resume </ExternalNavLink>
   </NavigationWrapper>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header

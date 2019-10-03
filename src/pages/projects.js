@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components'
-
+import SEO from '../components/seo'
 import Layout from '../components/layout'
 import ProjectGrid from '../components/projects/projectgrid';
 
@@ -18,6 +18,7 @@ const ProjectTitle = styled.h1`
 
 const ProjectsPage = () => (
     <Layout>
+        <SEO title="Projects" />
         <ProjectWrapper>
             <ProjectTitle>Projects</ProjectTitle>
             <ProjectGrid/>
