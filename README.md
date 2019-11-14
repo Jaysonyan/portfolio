@@ -1,1 +1,1 @@
-Catch me at jaysonyan.me 😎
+[Check it out](https://jaysonyan.me) 😎
