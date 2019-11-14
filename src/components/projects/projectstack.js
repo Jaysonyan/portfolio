@@ -7,10 +7,10 @@ const StackWrapper = styled.div`
     grid-template-columns: repeat(auto-fit, 25px);
 `
 
-const ProjectStack = (props) => (
+const ProjectStack = ({ techStack, index }) => (
     <StackWrapper>
-        {props.techStack.map((tech, index) => (
-            <TechIcon type={tech.icon.substring(0, 2)} icon={tech.icon} title={tech.name} id={props.index+"-"+index} />
+        {techStack.map((tech, iconIndex) => (
+            <TechIcon type={tech.icon.substring(0, 2)} icon={tech.icon} title={tech.name} id={index+"-"+iconIndex} />
         ))}
     </StackWrapper>
 )

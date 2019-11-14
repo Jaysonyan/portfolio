@@ -30,10 +30,10 @@ const Button = styled.a`
     }
 `
 
-const ProjectButtons = (props) => (
+const ProjectButtons = ({ links }) => (
     <ButtonSection>
         <ButtonsWrapper>
-            {props.links.map((value) => (
+            {links.map(value => (
                 <Button href={value.link}>
                     {value.name}
                 </Button>

@@ -36,15 +36,15 @@ const ProjectDescription = styled.p`
     white-space: pre-line;
 `
 
-const ProjectCard = (props) => (
+const ProjectCard = ({project, index}) => (
     <CardWrapper>
-        <CardImage src={withPrefix(props.project.images[0])}/>
-        <ProjectTitle>{props.project.title}</ProjectTitle>
+        <CardImage src={withPrefix(project.images[0])}/>
+        <ProjectTitle>{project.title}</ProjectTitle>
         <ProjectBody>
-            { props.project.techStack ? <ProjectStack techStack={props.project.techStack} index={props.index}/> : null }
-            <ProjectDescription>{props.project.description}</ProjectDescription>
+            { project.techStack ? <ProjectStack techStack={project.techStack} index={index}/> : null }
+            <ProjectDescription>{project.description}</ProjectDescription>
         </ProjectBody>
-        <ProjectButtons links={props.project.links}/>
+        <ProjectButtons links={project.links}/>
    </CardWrapper>
 )
 

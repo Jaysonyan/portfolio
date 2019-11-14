@@ -56,7 +56,7 @@ const Icon = styled.a`
 
 const ProfileText = () => (
     <TextWrapper>
-        <Name>jayson yan</Name>
+        <Name>Jayson Yan</Name>
         <Subtitle>Software Developer</Subtitle>
         <IconWrapper>
             <Icon href="https://www.linkedin.com/in/jayson-yan">

@@ -15,7 +15,7 @@ const HardCodedIcon = styled.img`
     filter: grayscale(100%);
 `
 
-const TechIcon = (props) => {
+const TechIcon = ({ title, icon, type, id }) => {
     function getIcon(type, icon) {
         switch(type) {
             case "Fa":
@@ -28,14 +28,14 @@ const TechIcon = (props) => {
     }
 
     return (
-        <IconWrapper data-tip={props.title} data-for={props.id} data-delay-show='300'>
-            { props.icon === "cplusplus" ?
+        <IconWrapper data-tip={title} data-for={id} data-delay-show='100'>
+            { icon === "cplusplus" ?
                 <HardCodedIcon src={cplusplus}/> : 
                 <IconContext.Provider value={{ size: '1.2em'}}>
-                    {getIcon(props.type, props.icon)}
+                    {getIcon(type, icon)}
                 </IconContext.Provider>
             }
-            <ReactToolTip id={props.id} effect="solid"/>
+            <ReactToolTip id={id} effect="solid"/>
         </IconWrapper>
     )
 }
