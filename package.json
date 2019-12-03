@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "jaysonyan",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Software Developer, University of Waterloo Software Engineering",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jayson Yan <jaysonjyan@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.6",
     "gatsby": "^2.15.14",
@@ -28,7 +28,12 @@
     "prettier": "^1.18.2"
   },
   "keywords": [
-    "gatsby"
+    "Jayson Yan",
+    "Jayson",
+    "Yan",
+    "Software Developer",
+    "Developer",
+    "Software"
   ],
   "license": "MIT",
   "scripts": {
@@ -41,9 +46,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/jaysonyan/portfolio"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/jaysonyan/portfolio/issues"
   }
 }
