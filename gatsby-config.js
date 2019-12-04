@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Jayson Yan`,
-    description: ``,
+    description: `Software Developer, studying Software Engineering at the University of Waterloo`,
     author: `@jaysonyan`,
+    siteUrl: `jaysonyan.me`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -16,6 +17,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-styled-components`,
+    `gastby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
