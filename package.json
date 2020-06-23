@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Jayson Yan <jaysonjyan@gmail.com>",
   "dependencies": {
+    "autoprefixer": "^9.8.0",
     "babel-plugin-styled-components": "^1.10.6",
     "gatsby": "^2.15.14",
     "gatsby-cli": "^2.12.49",
